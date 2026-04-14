@@ -11,7 +11,7 @@ A text-based accessibility reader overlay for React apps that simulates screen r
 
 ## 📦 Installation
 
-npm install @chirag-athwani/a11y-reader
+npm install @alew896/a11y-reader
 
 ## 🚀 Usage
 
