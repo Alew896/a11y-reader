@@ -1,24 +1,33 @@
 {
-  "name": "@alew896/a11y-reader",
-  "version": "0.1.0",
-  "description": "A11y text-based screen reader simulator overlay for React apps",
-  "main": "dist/index.js",
-  "module": "dist/index.mjs",
-  "types": "dist/index.d.ts",
-
-  "files": ["dist"],
-
-  "scripts": {
-    "build": "tsup src/index.ts --dts --format esm,cjs",
-    "prepublishOnly": "npm run build"
-  },
-
-  "keywords": ["a11y", "accessibility", "screen-reader", "aria", "react"],
-  "author": "Chirag Athwani",
-  "license": "MIT",
-
-  "peerDependencies": {
-    "react": ">=17",
-    "react-dom": ">=17"
-  }
+    "name": "@alew896/a11y-reader",
+    "version": "0.1.0",
+    "description": "A11y text-based screen reader simulator overlay for React apps",
+    "main": "dist/index.js",
+    "module": "dist/index.mjs",
+    "types": "dist/index.d.ts",
+    "files": [
+        "dist"
+    ],
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/alew896/a11y-reader.git"
+    },
+    "homepage": "https://github.com/alew896/a11y-reader#readme",
+    "scripts": {
+        "build": "tsup src/index.ts --dts --format esm,cjs",
+        "prepublishOnly": "npm run build"
+    },
+    "keywords": [
+        "a11y",
+        "accessibility",
+        "screen-reader",
+        "aria",
+        "react"
+    ],
+    "author": "Chirag Athwani",
+    "license": "MIT",
+    "peerDependencies": {
+        "react": ">=17",
+        "react-dom": ">=17"
+    }
 }
