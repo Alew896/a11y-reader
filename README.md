@@ -15,7 +15,7 @@ npm install @alew896/a11y-reader
 
 ## 🚀 Usage
 
-import { A11yOverlay } from '@chirag-athwani/a11y-reader'
+import { A11yOverlay } from '@alew896/a11y-reader'
 
 function App() {
   return (
